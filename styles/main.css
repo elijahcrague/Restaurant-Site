@@ -1,0 +1,90 @@
+#secondSection {
+  background-color: #F4F1EF;
+}
+
+#logo {
+  height: 70px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-item .img-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  height: 90vh;
+}
+
+.carousel-item h5 {
+  font-size: 6em;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item p {
+  font-size: 2em;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/images/backImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.header h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#rewardSection h2 {
+  font-size: 40px;
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  padding-top: 40px;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#rewards {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+footer {
+  background-color: white;
+  text-align: left;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+footer ul {
+  list-style: none;
+}
+/*# sourceMappingURL=main.css.map */
